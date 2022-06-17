@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+}
+
+body {
+  min-height: 100vh;
+  background: url(./media/background.jpg);
+  background-size: cover;
+  font-family: "Quicksand";
+}
+
+.title {
+  font-weight: 700;
+  font-size: 40px;
+  background-color: #f7deab;
+  border-radius: 30px;
+  padding: 5px 18px;
+}
+
+.navBar {
+  width: 85%;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navBar ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0px 20px;
+  background-color: #f7deab;
+  padding: 10px 15px;
+  border-radius: 20px;
+}
+
+.navBar ul li:hover {
+  background-color: #f1cc81;
+  text-decoration: underline;
+}
+
+.navBar ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.pageContent{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+} 
+
+.box {
+  min-width: 400px;
+  background-color: #fafafa;
+  border-radius: 40px;
+  text-align: center;
+  position: relative;
+  box-shadow: -2px 1px 10px #888888;
+}
+
+.calcTitle {
+  font-weight: bolder;
+  font-size: 36px;
+  padding: 30px;
+}
+
+.content {
+  padding: 0 40px;
+}
+
+.input {
+  background-color: white;
+  border-radius: 30px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.input label {
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.input input {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #5b84f7;
+  width: 60%;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Quicksand";
+}
+
+button {
+  font-family: "Quicksand";
+  color: white;
+  background-color: #5b84f7;
+  font-size: 15px;
+  border-radius: 12px;
+  padding: 12px;
+  width: 100%;
+  outline: none;
+  border: none;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #2457e4;
+}
+
+.result {
+  padding: 30px 20px;
+}
+
+.result p {
+  font-weight: 600;
+  font-size: 20px;
+  color: black;
+  margin-bottom: 15px;
+}
+
+.value {
+  font-size: 36px;
+  font-weight: 900;
+  color: #5b84f7;
+  background-color: #eaeaea;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 40px;
+  margin-bottom: 25px;
+}
+
+#comment {
+  color: #5b84f7;
+  font-weight: 800;
+}
+
+.info{
+  max-width: 40%;
+  background-color: #fafafa;
+  padding: 50px;
+  border-radius: 50px;
+  box-shadow: -2px 1px 10px #888888;
+}
+
+p.underweight, p.overweight{
+  text-align: justify;
+}
+
+span{
+  font-weight: bold;
+}
